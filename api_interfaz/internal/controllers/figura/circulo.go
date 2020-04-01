@@ -12,7 +12,7 @@ type Circ struct {
 }
 
 // Area ...
-func Area(c *gin.Context) {
+func AreaCirculo(c *gin.Context) {
 	circulo := Circ{5}
 	resultado := circulo.area(c)
 	c.JSON(200, gin.H{"resultado area": resultado})
@@ -20,7 +20,7 @@ func Area(c *gin.Context) {
 }
 
 // Perim ...
-func Perim(c *gin.Context) {
+func PerimCirculo(c *gin.Context) {
 	circulo := Circ{20}
 	resultado := circulo.perim(c)
 	c.JSON(200, gin.H{"resultado Perimetro": resultado})

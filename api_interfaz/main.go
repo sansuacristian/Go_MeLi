@@ -13,8 +13,8 @@ func main() {
 
 	routerRect := r.Group("/rectangulo")
 	{
-		routerRect.GET("/area", figura.Area)
-		routerRect.GET("/perim", figura.Perim)
+		routerRect.GET("/area", figura.AreaRectangulo)
+		routerRect.GET("/perim", figura.PerimRectangulo)
 
 	}
 
