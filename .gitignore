@@ -13,3 +13,4 @@
  *.exe 
  *.test 
 *.prof  .idea/
+*.history
