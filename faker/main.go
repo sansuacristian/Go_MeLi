@@ -23,11 +23,11 @@ func main() {
 	}
 	fmt.Printf("%+v", a)
 
-	b := Sample{
+	c := Sample{
 		Password: a.Password,
 	}
 
-	if a == b {
+	if a == c {
 		log.Println("se comprobo el codigo")
 	} else {
 		log.Println("codigo incorrecto")
